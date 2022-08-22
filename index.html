@@ -4,10 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tables and Forms</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
     <main>
-      <!-- Complete the Exercises HERE -->
+      <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Total Servings</th>
+              <th>Serving Size</th>
+              <th>Caories Per Serving</th>
+              <th>Carbs Per Serving</th>
+              <th>Sugars Per Serving</th>
+              <th>Sodium Per Serving</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="DrinkNames">
+              <td>Coca Cola</td>
+              <td>50</td>
+              <td>60</td>
+              <td>70</td>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+            </tr>
+            <tr class="DrinkNames">
+              <td>Pepsi</td>
+              <td>20</td>
+              <td>30</td>
+              <td>40</td>
+              <td>50</td>
+              <td>60</td>
+              <td>70</td>
+            </tr>
+            <tr class="DrinkNames">
+              <td>Coca Cola Zero</td>
+              <td>120</td>
+              <td>130</td>
+              <td>140</td>
+              <td>150</td>
+              <td>160</td>
+              <td>170</td>
+            </tr>
+            <tr class="DrinkNames">
+              <td>Dr. Pepper</td>
+              <td>55</td>
+              <td>65</td>
+              <td>75</td>
+              <td>85</td>
+              <td>95</td>
+              <td>100</td>
+            </tr>
+            <tr class="DrinkNames">
+              <td>Mountain Dew</td>
+              <td>77</td>
+              <td>88</td>
+              <td>99</td>
+              <td>55</td>
+              <td>22</td>
+              <td>33</td>
+            </tr>
+
+          </tbody>
+      </table>
+      <form>
+       <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+       </div>
+
+        <div class="form-group">
+          <label for="total servings">Total Servings:</label>
+          <input type="number" name="Total Servings" id="Total Servingse" />
+        </div>
+
+        <div class="form-group">
+          <label for="Serving Size">Sering Size:</label>
+          <input type="number" name="Serving Size" id="Serving Size" />
+        </div>
+
+         <div class="form-group">
+          <label for="Calories">Calories:</label>
+          <input type="number" name="Calories:" id=""Calories: />
+        </div>
+
+        <div class="form-group">
+          <label for="Carbs">Carbs Per Serving:</label>
+          <input type="number" name="Carbs Per Serving" id="Carbs Per Serving" />
+        </div>
+
+        <div class="form-group">
+          <label for="Sugars">Sugars Per Serving:</label>
+          <input type="number" name="Sugars Per Serving:" id="Sugars Per Serving:" />
+        </div>
+
+        <div class="form-group">
+          <label for="Sodium">Sodium Per Serving:</label>
+          <input type="tnumber" name="Sodium Per Serving" id="Sodium Per Serving" />
+        </div>
+
+        <button type="submit">submit</button>
+      </form>
     </main>
   </body>
 </html>
